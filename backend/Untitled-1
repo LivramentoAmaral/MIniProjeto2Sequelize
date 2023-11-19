@@ -1,0 +1,6 @@
+-- database: /home/marcos/Downloads/backend/database.sqlite
+
+-- Pressione o botão ▷ no canto superior direito da janela para executar todo o arquivo.
+
+SELECT * FROM "cursos"
+ORDER BY "id" ASC;

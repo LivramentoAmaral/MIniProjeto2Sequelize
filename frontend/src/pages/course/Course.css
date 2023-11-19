@@ -1,0 +1,116 @@
+/* Estilos para o componente Course */
+
+.course-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.course-table {
+    width: 100%;
+    height: fit-content;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+.course-table th,
+.course-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.course-table th {
+    background-color: var(--table-header-color);
+}
+
+.course-table td {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--table-body-color);
+}
+
+.btn-excluir {
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-excluir:hover {
+    background-color: var(--secondary-hover-color);
+}
+
+.btn-edit {
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--button-color);
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+    background-color: var(--button-hover-color);
+}
+
+.course-table tr:hover {
+    background-color: var(--table-row-hover-color);
+}
+
+.course-form {
+    width: 100%;
+    height: fit-content;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.course-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.course-form input,
+.course-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.course-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.course-form button:hover {
+    background-color: var(--primary-hover-color);
+}
